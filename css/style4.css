@@ -1,0 +1,158 @@
+body{
+    
+    background-color: #d4d9dd;
+    font-family: 'Merriweather', serif;
+    background-image: url(https://images.unsplash.com/photo-1548679847-1d4ff48016c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+    background-size: cover;
+} 
+
+.div1{
+    text-align: right;
+    border: solid 30px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: black;
+}
+.navbar {
+    font-size: 20px;
+    color: snow;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    text-decoration: none;
+    margin-right: 20px;
+}
+  
+.navbar:focus,
+.navbar:hover {
+    color: snow;
+}
+  
+.navbar:focus:after,
+.navbar:hover:after {
+    width: 100%;
+    left: 0%;
+}
+  
+.navbar:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: snow;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+.fade-in-text {
+    margin-right: 0px;
+    font-size: 45px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.header {
+    margin-left: 600px;
+    font-size: 45px;
+    border: black 15px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: snow;
+    position: absolute;
+}
+
+.img {
+    position:absolute;
+    margin-left: 815px;
+    margin-top: 90px;
+    width: 45%;
+    border: solid 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.fade-in-text2 {
+    margin-right: 0px;
+    font-size: 45px;
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 8s;
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.header2 {
+    margin-right: 710px;
+    font-size: 20px;
+    margin-top: 150px;
+    text-align:center;
+    position:inherit;
+    border: black 15px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    border-color: none;
+    background-color: none;
+}
